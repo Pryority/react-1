@@ -1,10 +1,8 @@
-import React from "react";
-// First we import Greeting from the components folder
-import Greeting from "./components/Greeting";
+import React from 'react';
+import Thermostat from './components/Thermostat';
 
-// Our App component returns the Greeting component
 function App() {
-  return <Greeting />;
+  return <Thermostat />;
 }
 
 export default App;
